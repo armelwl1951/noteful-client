@@ -1,4 +1,5 @@
-.NavCircleButton {
+
+.button {
     background-color: #cacaca;
     border-radius: 30px;
     border: 0;
@@ -12,11 +13,11 @@
     text-decoration: none;
     width: 60px;
 }
-  
-a.NavCircleButton {
+
+a.button {
     padding: 16px 8px 8px;
 }
-  
-.NavCircleButton:hover {
+
+.button:hover {
     cursor: pointer;
 }

@@ -1,37 +1,37 @@
-.Noteful-form {
+.notefulForm {
     background-color: #1d3656;
     color: #dedede;
     padding: 16px;
     max-width: 332px;
 }
   
-.Noteful-form label {
+.notefulForm label {
     display: block;
     font-size: 16px;
     padding-bottom: 8px;
 }
   
-.Noteful-form input,
-.Noteful-form textarea,
-.Noteful-form select {
+.notefulForm input,
+.notefulForm textarea,
+.notefulForm select {
     font-size: 14px;
     padding: 8px;
     width: 300px;
 }
   
-.Noteful-form select {
+.notefulForm select {
     height: 33px;
 }
   
-.Noteful-form > .field {
+.notefulForm > .field {
     margin-bottom: 16px;
 }
 
-.Noteful-form > .buttons {
+.notefulForm > .buttons {
     margin-top: 26px;
 }
   
-.Noteful-form button {
+.notefulForm button {
     background-color: #010d1e;
     border-radius: 4px;
     border: 0;
@@ -44,7 +44,7 @@
     text-decoration: none;
 }
 
-.Noteful-form button[type="submit"]:hover {
+.notefulForm button[type="submit"]:hover {
     background-color: #29862e;
     color: white;
 }
