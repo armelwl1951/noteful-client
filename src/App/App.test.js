@@ -4,8 +4,9 @@ import { BrowserRouter } from 'react-router-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {
   faPlus, faChevronLeft, faTrashAlt, faCheckDouble
-} from '@fortawesome/free-solid-svg-icons'
+  } from '@fortawesome/free-solid-svg-icons'
 import App from './App'
+import * as startOfDay from "date-fns";
 
 library.add(faPlus, faChevronLeft, faTrashAlt, faCheckDouble)
 
@@ -14,8 +15,7 @@ it('renders without crashing', () => {
   ReactDOM.render(
     <BrowserRouter>
       <App />
-    </BrowserRouter>,
-    div
+    </BrowserRouter>, div
   )
   ReactDOM.unmountComponentAtNode(div)
 })
